@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 5px;
+    
+}
+.add-icon{
+    display: flex;
+    align-items: centre;
+}
+.nav-search{
+    display: flex;
+    background-color: rgb(255, 204, 0);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-left: 30px;
+    
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: centre;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+.search-input{
+    width: 600px;
+    font-size: 1rem;
+
+}
+.search-icon{
+    width: 20px;
+    display: flex;
+   padding: 12px;
+   font-size: 1.2rem;
+   color: #0f1111;
+}
+span{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 2.5px solid rgb(255, 204, 0)
+}
+.nav-cart{
+    display: flex;
+}
+.cart-icon{
+    font-size: 1.5rem;
+}
+.cart{
+   margin-top: 10px;
+}
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+ .panel-ops p {
+   display: inline;  
+   width: 70%;
+   font-size: 0.85rem;
+   margin-left: 15px;   
+}
+.panel-ops{
+    margin-right: 680px;
+}
+.panel-deals{
+    font-size: o.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+     justify-content: center;
+     align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    color: black;
+    height: 40px;
+    margin-top: 18px;
+    width: 95%;
+   
+}
+.hero-msg a {
+ color: #007185;
+ text-decoration: none;
+}

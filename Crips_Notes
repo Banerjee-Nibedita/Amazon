@@ -1,0 +1,20 @@
+This file is to take the notes of the things I learnt during this project:
+
+-using cdn font awesome to link "font awesome"
+- cdn ---> content delivery network
+
+Steps:
+1. link cnd font awesome
+2. in CSS set margin to 0, font family , border to border box.
+3. Navbar
+    * Header
+    * div with class navbar and check height in the actual website, even set the background color, and color.
+    * add nav-logo using another div and inside it one more div for actual logo
+    ** div is only visible when it has a specific height.
+    ** if want to add things in a single line in navbar then set display to flex.
+    ** it is good to add font size in rem to make the website responsive.
+    ** border will be removed if we set it to none.
+
+    # to spread the elements evenly use justify-content: space evenly
+    * to change position vertically [align-items]
+    * to change position horizantally [jutify-content]
